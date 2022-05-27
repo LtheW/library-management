@@ -9,6 +9,7 @@ const routes = [
   {
     path: '/',
     name: 'Main',
+    redirect: '/main',
     component: () => import('@/views/Main')
   },
   {
